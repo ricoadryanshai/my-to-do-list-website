@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #122328;
+  color: #386d7d;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  margin: 4rem 16rem;
+}
+#container {
+  background-color: #5eb8d2;
+  padding: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  border-radius: 10px;
+  gap: 1rem;
+}
+#container-button {
+  display: flex;
+  justify-content: space-between;
+}
+#container h1 {
+  margin: 0;
+}
+#container p {
+  margin: 0;
+  font-style: italic;
+}
+#container button {
+  border-radius: 10px;
+  padding: 5px 20px;
+  border: none;
+  background-color: #386d7d;
+  color: #5eb8d2;
+}
+#container button:hover {
+  background-color: #5eb8d2;
+  color: #386d7d;
+  border: solid;
+}
+#container input {
+  border-radius: 5px;
+  border: none;
+  width: 50%;
+}
+#container .form-container {
+  display: flex;
+  gap: 1rem;
+}
+#container ol {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+  padding-inline: 1rem;
+}
+#container li:hover {
+  cursor: pointer;
+  background-color: #386d7d;
+  color: #5eb8d2;
+  width: 100%;
+}
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+#container ol .completed {
+  text-decoration: line-through;
+}
+#container-footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+@media screen and (max-width: 941px) {
+  body {
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    margin: 1rem;
+  }
+}
+@media screen and (max-width: 461px) {
+  body {
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    margin: 1rem;
+  }
+  #container-button {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  #container input {
+    width: 100%;
+  }
+}
