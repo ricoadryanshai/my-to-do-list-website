@@ -13,7 +13,7 @@ This application is built using the following technologies:
 ## Installation and Usage
 
 1. Clone this repository by typing the following command in your terminal or command prompt: 
-`git clone https://github.com/ricoadryanshai/my-to-do-list-website.git`
+    `git clone https://github.com/ricoadryanshai/my-to-do-list-website.git`
 
 2. Open the "index.html" file in your browser to start using the application.
 
